@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(17, 17, 17); /* Change this to your desired color */
+}
+
+.introduction {
+    border: 10px solid rgb(115, 115, 115);
+    border-radius: 15%;
+    width:  20%;
+    height: auto;
+    margin: auto auto;
+    
+}
+
+.introduction p {
+  font: small-caps bold 1.2rem sans-serif;
+  text-align:center;
+  color:whitesmoke
+}
