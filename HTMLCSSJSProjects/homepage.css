@@ -1,18 +1,33 @@
 body {
-    background-color: rgb(17, 17, 17); /* Change this to your desired color */
+    background-color: rgb(0, 0, 0); /* Background Color for the Entire Document */
+    color:whitesmoke                /* Color of the text for the Entire Document */
 }
 
 .introduction {
-    border: 10px solid rgb(115, 115, 115);
-    border-radius: 15%;
-    width:  20%;
-    height: auto;
-    margin: auto auto;
-    
+    border: 8px solid rgb(115, 115, 115); /* Border width, sytle, and color */
+    border-radius: 10%; /* How circular the border is; 0 -> square, 100 -> circle*/
+    width:  60%; /* Width of the border with respect to the page size */
+    height: auto; /* Height of the border with respect to the page size */
+    margin: auto auto; /* Margin = Border - Text = distance between border & text */
+    font: small-caps bold 2.5rem sans-serif; /* All Font settings for text */
+    text-align: center; /* Where the text will be horizontally */
 }
 
-.introduction p {
-  font: small-caps bold 1.2rem sans-serif;
-  text-align:center;
-  color:whitesmoke
+.box-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-gap: 10px; /* Gap between boxes */
+    margin: 175px 350px; /* Center the container and add vertical margin */
 }
+
+.box {
+    border: 8px solid rgb(60, 180, 20); /* Border width, sytle, and color */
+    border-radius: 10%; /* How circular the border is; 0 -> square, 100 -> circle*/
+    width:  250px; /* Width of the border with respect to the page size */
+    height: 100px; /* Height of the border with respect to the page size */
+    margin: auto; /* Margin = Border - Text = distance between border & text */
+    font: 24px sans-serif; /* All Font settings for text */
+    text-align: center; /* Where the text will be horizontally */
+}
+
+/* radd a resume section for quick access to resume maybe a random to go to a radnom section*/
